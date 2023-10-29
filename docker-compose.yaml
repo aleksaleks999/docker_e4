@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+  django:
+    build: .
+    image: alexalex666/django:latest
+    ports:
+      - 8080:80
+      - 5432:5432
+      - 8000:8000
+  
